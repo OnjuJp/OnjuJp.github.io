@@ -1,0 +1,57 @@
+.image-row {
+  display: flex;
+  gap: 1rem;
+}
+
+@media (max-width: 800px) {
+  .image-row {
+    flex-direction: column;
+  }
+}
+
+.image-row img {
+  width: 100%;
+  max-width: 400px;
+}
+
+ul.verification-conditions {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+span.strong {
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+section {
+  margin: 2rem 0;
+  padding-top: 2rem;
+  border-top: 1px solid #444;
+}
+
+.result-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.result-table th,
+.result-table td {
+  padding: 0.6rem 0.8rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+
+.result-table thead th {
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.result-table tbody tr:last-child td {
+  border-bottom: none;
+}

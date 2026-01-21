@@ -1,0 +1,21 @@
+/* ライトモード（フォールバック） */
+:root {
+  --bg: #f6f7f9;
+  --bg-surface: #ffffff;
+  --text: #1f2328;
+  --text-muted: #6e7781;
+  --border: #d0d7de;
+  --accent: #539bf5;
+}
+
+/* ダークモード */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --bg-surface: #161b22;
+    --text: #e6edf3;
+    --text-muted: #8b949e;
+    --border: #30363d;
+    --accent: #58a6ff;
+  }
+}
