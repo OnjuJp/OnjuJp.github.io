@@ -1,5 +1,4 @@
 ---
-body_class: andn
 ---
 # アナデン関連
 
