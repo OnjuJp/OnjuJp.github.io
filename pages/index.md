@@ -2,4 +2,4 @@
 
 - [アナデン](./andn/)
 - [test](./test.html)
-- [test2](./andn/calculator/)
+- [test2](./test/)

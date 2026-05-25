@@ -1,6 +1,6 @@
 ---
 title: てすと
-permalink: /pages/
+permalink: /test/
 ---
 
 てすと
